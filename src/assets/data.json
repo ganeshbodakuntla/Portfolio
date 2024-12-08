@@ -1,0 +1,22 @@
+{
+  "projects": [
+    
+    {
+      "date": "20/10/2022",
+      "title": "WEATHER APP",
+      "description": "The application is used for the fetch the weather of the given location where we it gives next one week  weather in the user interface",
+      "url": "https://weather-app-two-lovat-57.vercel.app//",
+      "imgSrc": "https://cdn.dribbble.com/userupload/4004842/file/original-51a2122f099b9fec7a9f5d7e8f19ccd7.jpg?resize=1024x768"
+    },
+    {
+      "date": "20/10/2022",
+      "title": "MOVIE RATINGS",
+      "description": "The application is used for the fetch the weather of the given location where we it gives next one week  weather in the user interface",
+      "url": "https://movierating-khaki.vercel.app/",
+      "imgSrc": "https://i0.wp.com/themes.svn.wordpress.org/movie-critic-review/0.5.3/screenshot.png?w=post-thumbnail&strip=all"
+    }
+    
+
+  ]
+}
+

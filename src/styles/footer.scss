@@ -1,0 +1,83 @@
+//  footer{
+//     min-height: 100px;
+//     background-color: $color6;
+//     color: $color4;
+//     padding: 2rem 0;
+//     padding-left: $p;
+//     display: grid;
+//     grid-template-columns: 10fr 3fr 1fr;
+//     align-items: center;
+//     justify-items: center;
+//     text-align: center;
+
+//     >div{
+//       width: 100%;
+//       border-left: 2px solid $color4;
+//       border-right: 2px solid $color4;
+
+//       >img{
+//         width: 100px;
+//         height: 100px;
+//         border-radius: 50%;
+//         object-fit:contain;
+        
+        
+//       }
+//       >h2{
+//   margin: 1rem;
+//       }
+//       >p{
+//         font: 400 1.2rem ;
+//       }
+//     }
+//   }
+
+.footer {
+  background-color:$color5_1;
+  color: $color1;
+  padding: 1rem;
+  text-align: center;
+  
+
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .footer-text {
+      text-align: center;
+      align-items: center;
+
+      h2 {
+        // margin-bottom: 1rem;
+        // text-transform:uppercase;
+        font-style: italic;
+        font-weight: 500;
+        font: 700 solid $color1;
+      }
+
+      p {
+        margin: 1rem auto;
+      }
+
+      .social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: auto;
+
+        a {
+          margin-right: 10px;
+          margin-top: auto;
+          color:$color1;
+          font-size: 20px;
+          text-decoration: none;
+          align-items: center;
+          justify-content: center;
+          &:hover {
+            color: $color3 // Change the color on hover as needed
+          }
+        }
+      }
+    }
+  }
+}
